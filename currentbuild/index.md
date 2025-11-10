@@ -59,7 +59,7 @@ Eksempel på en figur laget med PlantUML.
   "name" : "igtest",
   "title" : "ig-test",
   "status" : "draft",
-  "date" : "2025-11-10T14:13:05+00:00",
+  "date" : "2025-11-10T14:19:29+00:00",
   "publisher" : "oddbear",
   "contact" : [
     {
@@ -832,6 +832,20 @@ Eksempel på en figur laget med PlantUML.
         "name" : "Pasient-1",
         "description" : "Eksempel på norsk pasient med fødselsnummer, navn og kontaktinformasjon",
         "exampleCanonical" : "http://oddbeard.net/fhir/ig/mal/StructureDefinition/test-mal-patient"
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "SearchParameter"
+          }
+        ],
+        "reference" : {
+          "reference" : "SearchParameter/SearchParameter-Patient-NorwegianSSN"
+        },
+        "name" : "Search parameter for Norwegian Social Security Number",
+        "description" : "Search for Patients using the Norwegian Social Security Number (fødselsnummer) as identifier.",
+        "exampleBoolean" : false
       }
     ],
     "page" : {

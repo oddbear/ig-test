@@ -11,7 +11,7 @@
   <name value="igtest"/>
   <title value="ig-test"/>
   <status value="draft"/>
-  <date value="2025-11-10T14:13:05+00:00"/>
+  <date value="2025-11-10T14:19:29+00:00"/>
   <publisher value="oddbear"/>
   <contact>
     <name value="oddbear"/>
@@ -499,6 +499,17 @@
       <name value="Pasient-1"/>
       <description value="Eksempel på norsk pasient med fødselsnummer, navn og kontaktinformasjon"/>
       <exampleCanonical value="http://oddbeard.net/fhir/ig/mal/StructureDefinition/test-mal-patient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/SearchParameter-Patient-NorwegianSSN"/>
+      </reference>
+      <name value="Search parameter for Norwegian Social Security Number"/>
+      <description value="Search for Patients using the Norwegian Social Security Number (fødselsnummer) as identifier."/>
+      <exampleBoolean value="false"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

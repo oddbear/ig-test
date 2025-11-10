@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 0, warn = 14, info = 1-->
+<!-- broken links = 0, errors = 4, warn = 14, info = 1-->
 <head>
   <title>igtest : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for igtest</h1>
- <p>Generated Mon Nov 10 14:14:14 UTC 2025, FHIR version 4.0.1 for test.ig.oddbear#0.1.0 (canonical = <a href="http://oddbeard.net/fhir/ig/mal">http://oddbeard.net/fhir/ig/mal</a> (<a href="http://oddbeard.net/fhir/ig/mal/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Mon Nov 10 14:20:46 UTC 2025, FHIR version 4.0.1 for test.ig.oddbear#0.1.0 (canonical = <a href="http://oddbeard.net/fhir/ig/mal">http://oddbeard.net/fhir/ig/mal</a> (<a href="http://oddbeard.net/fhir/ig/mal/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.0.26</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = test.ig.oddbear, Canonical = http://oddbeard.net/fhir/ig/mal</td></tr>
@@ -135,7 +135,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 0, warn = 14, info = 1, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 4, warn = 14, info = 1, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -146,6 +146,9 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#___w_ig-test_ig-test_ig-test_fsh-generated_resources_ImplementationGuide-test.ig.oddbear"><b>/__w/ig-test/ig-test/ig-test/fsh-generated/resources/ImplementationGuide-test.ig.oddbear</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#___w_ig-test_ig-test_ig-test_fsh-generated_resources_SearchParameter-SearchParameter-Patient-NorwegianSSN"><b>/__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN</b></a></td><td><b>4</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#___w_ig-test_ig-test_ig-test_fsh-generated_resources_StructureDefinition-mal-observation-blodprove"><b>/__w/ig-test/ig-test/ig-test/fsh-generated/resources/StructureDefinition-mal-observation-blodprove</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
@@ -188,16 +191,38 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><b>ImplementationGuide&#8203;.dependsOn[2]&#8203;.uri (l1&#8203;/c1920)</b></td><td><b>warning</b></td><td><b>A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>ImplementationGuide (l1/c13100)</b></td><td><b>warning</b></td><td><b>Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ig-0</span></td>
+     <td><b>ImplementationGuide (l1/c13502)</b></td><td><b>warning</b></td><td><b>Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ig-0</span></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>ImplementationGuide&#8203;.dependsOn[2] (l1&#8203;/c1971)</b></td><td><b>warning</b></td><td><b>The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">IG_DEPENDENCY_INVALID_URL</span></td>
    </tr>
 </table>
 <hr/>
+<a name="___w_ig-test_ig-test_ig-test_fsh-generated_resources_SearchParameter-SearchParameter-Patient-NorwegianSSN"> </a>
+<h2><a href="SearchParameter-SearchParameter-Patient-NorwegianSSN.html">fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>SearchParameter: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/searchparameter.html">SearchParameter</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>SearchParameter&#8203;.where(url = 'http:&#8203;/&#8203;/example&#8203;.org&#8203;/fhir&#8203;/SearchParameter&#8203;/patient-norwegian-ssn')</b></td><td><b>error</b></td><td><b>Conformance resource /__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json - the canonical URL (http://oddbeard.net/fhir/ig/mal/SearchParameter/SearchParameter-Patient-NorwegianSSN) does not match the URL (http://example.org/fhir/SearchParameter/patient-norwegian-ssn). Use the special-url parameter if you really mean for it not to match</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>SearchParameter&#8203;.where(url = 'http:&#8203;/&#8203;/example&#8203;.org&#8203;/fhir&#8203;/SearchParameter&#8203;/patient-norwegian-ssn')</b></td><td><b>error</b></td><td><b>Conformance resource /__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json - the canonical URL (http://oddbeard.net/fhir/ig/mal/SearchParameter/SearchParameter-Patient-NorwegianSSN) does not match the URL (http://example.org/fhir/SearchParameter/patient-norwegian-ssn). Use the special-url parameter if you really mean for it not to match</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>SearchParameter.expression (l1/c1881)</b></td><td><b>error</b></td><td><b>Error in search expression 'Patient.identifier.where(system='urn:oid:2.16.578.1.12.4.1.4.1' and value.matches('^\d{11}$'))': Error @1, 94: Unknown FHIRPath character escape \d</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">ED_SEARCH_EXPRESSION_ERROR</span></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>fsh-generated&#8203;/resources&#8203;/SearchParameter-SearchParameter-Patient-NorwegianSSN</b></td><td><b>error</b></td><td><b>URL Mismatch http://oddbeard.net/fhir/ig/mal/SearchParameter/SearchParameter-Patient-NorwegianSSN vs http://example.org/fhir/SearchParameter/patient-norwegian-ssn</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
+   </tr>
+</table>
+<hr/>
 <a name="___w_ig-test_ig-test_ig-test_fsh-generated_resources_StructureDefinition-mal-observation-blodprove"> </a>
-<h2><a href="StructureDefinition-mal-observation-blodprove.html">fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-mal-observation-blodprove.html">fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -212,8 +237,8 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
 </table>
 <hr/>
 <a name="___w_ig-test_ig-test_ig-test_fsh-generated_resources_StructureDefinition-test-mal-patient"> </a>
-<h2><a href="StructureDefinition-test-mal-patient.html">fsh-generated/resources/StructureDefinition-test-mal-patient.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-test-mal-patient.html">fsh-generated/resources/StructureDefinition-test-mal-patient.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -237,8 +262,8 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
 </table>
 <hr/>
 <a name="___w_ig-test_ig-test_ig-test_fsh-generated_resources_StructureDefinition-test.encounter.oddbear"> </a>
-<h2><a href="StructureDefinition-test.encounter.oddbear.html">fsh-generated/resources/StructureDefinition-test.encounter.oddbear.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-test.encounter.oddbear.html">fsh-generated/resources/StructureDefinition-test.encounter.oddbear.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -253,6 +278,14 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
 <p>No suppressed messsages</p><a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
 <hr/>
+<a name="ED_SEARCH_EXPRESSION_ERROR"> </a>
+<h2>ED_SEARCH_EXPRESSION_ERROR</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="SearchParameter-SearchParameter-Patient-NorwegianSSN.html">fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json</a></td><td><b>Error in search expression 'Patient.identifier.where(system='urn:oid:2.16.578.1.12.4.1.4.1' and value.matches('^\d{11}$'))': Error @1, 94: Unknown FHIRPath character escape \d</b></td>
+   </tr>
+</table>
+<hr/>
 <a name="IG_DEPENDENCY_INVALID_URL"> </a>
 <h2>IG_DEPENDENCY_INVALID_URL</h2>
  <table class="grid">
@@ -266,6 +299,17 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  <table class="grid">
    <tr style="background-color: #fffff2">
      <td><a href="StructureDefinition-mal-observation-blodprove.html">fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json</a></td><td><b>The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="RESOURCE_CANONICAL_MISMATCH"> </a>
+<h2>RESOURCE_CANONICAL_MISMATCH</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="SearchParameter-SearchParameter-Patient-NorwegianSSN.html">fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json</a></td><td><b>Conformance resource /__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json - the canonical URL (http://oddbeard.net/fhir/ig/mal/SearchParameter/SearchParameter-Patient-NorwegianSSN) does not match the URL (http://example.org/fhir/SearchParameter/patient-norwegian-ssn). Use the special-url parameter if you really mean for it not to match</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="SearchParameter-SearchParameter-Patient-NorwegianSSN.html">fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json</a></td><td><b>Conformance resource /__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json - the canonical URL (http://oddbeard.net/fhir/ig/mal/SearchParameter/SearchParameter-Patient-NorwegianSSN) does not match the URL (http://example.org/fhir/SearchParameter/patient-norwegian-ssn). Use the special-url parameter if you really mean for it not to match</b></td>
    </tr>
 </table>
 <hr/>
