@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "igtest"] ; # 
   fhir:title [ fhir:v "ig-test"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-10T13:00:49+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-10T13:13:36+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "oddbear"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "oddbear" ] ;

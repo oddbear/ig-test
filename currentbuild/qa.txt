@@ -3,7 +3,7 @@ igtest : Validation Results
 
 err = 0, warn = 14, info = 1
 IG Publisher Version: 2.0.26
-Generated Mon Nov 10 13:02:02 UTC 2025. FHIR version 4.0.1 for test.ig.oddbear#0.1.0 (canonical = http://oddbeard.net/fhir/ig/mal)
+Generated Mon Nov 10 13:14:57 UTC 2025. FHIR version 4.0.1 for test.ig.oddbear#0.1.0 (canonical = http://oddbeard.net/fhir/ig/mal)
  Build Errors : 0 / 4 / 0
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/ImplementationGuide-test.ig.oddbear : 0 / 3 / 1
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/Patient-Pasient-1 : 0 / 0 / 1
