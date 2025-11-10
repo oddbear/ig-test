@@ -1,11 +1,11 @@
-Profile:     MalPatient
-Id:          mal-patient
+Profile:     TestMalPatient
+Id:          test-mal-patient
 Parent:      NoBasisPatient
 Title:       "Pasient"
-Description: "Informasjon om pasienten, basert på no-basis."
+Description: "Test Informasjon om pasienten, basert på no-basis."
 * ^status = #draft
 * ^date = "2025-01-22"
-* ^publisher = "HL7 Norge"
+* ^publisher = "oddbear"
 
 * identifier MS
 * name.family MS
