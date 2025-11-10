@@ -10,3 +10,5 @@ Description: "Profil for encounter test"
 * subject only Reference(NoBasisPatient)
 * serviceProvider 1..1
 * serviceProvider only Reference(Organization)
+* meta 1..1
+* meta.lastUpdated 1..1
