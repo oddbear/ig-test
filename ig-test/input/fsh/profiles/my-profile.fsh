@@ -9,4 +9,4 @@ Description: "Profil for encounter test"
 
 * subject only Reference(NoBasisPatient)
 * serviceProvider 1..1
-* serviceProvider only Reference(EpisodeOfCare)
+* serviceProvider only Reference(Organization)
