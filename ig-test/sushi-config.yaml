@@ -10,7 +10,7 @@ title: "ig-test"
 description: Implementasjonsguide for å test ig publisher på HL7 Hackathon 2025
 status: draft
 version: 0.1.0
-fhirVersion: 4.0.1
+fhirVersion: 5.0.0
 copyrightYear: 2025+
 releaseLabel: ci-build
 jurisdiction: urn:iso:std:iso:3166#NO "Norway"
