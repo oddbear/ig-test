@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="hl7.fhir.no.mal"/>
+  <id value="test.ig.oddbear"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.no.mal</b></p><a name="hl7.fhir.no.mal"> </a><a name="hchl7.fhir.no.mal"> </a><a name="hl7.fhir.no.mal-no-NO"> </a><h2>Mal</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal</pre><div><p>Implementasjonsguide for å TODO</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide test.ig.oddbear</b></p><a name="test.ig.oddbear"> </a><a name="hctest.ig.oddbear"> </a><h2>igtest</h2><p>The official URL for this implementation guide is: </p><pre>http://oddbeard.net/fhir/ig/mal/ImplementationGuide/test.ig.oddbear</pre><div><p>Implementasjonsguide for å test ig publisher på HL7 Hackathon 2025</p>
 </div></div>
   </text>
-  <url value="http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal"/>
+  <url value="http://oddbeard.net/fhir/ig/mal/ImplementationGuide/test.ig.oddbear"/>
   <version value="0.1.0"/>
-  <name value="Mal"/>
-  <title value="Mal"/>
+  <name value="igtest"/>
+  <title value="ig-test"/>
   <status value="draft"/>
-  <date value="2025-04-04T11:22:52+00:00"/>
-  <publisher value="HL7 Norge"/>
+  <date value="2025-11-10T09:50:45+00:00"/>
+  <publisher value="oddbear"/>
   <contact>
-    <name value="HL7 Norge"/>
+    <name value="oddbear"/>
     <telecom>
       <system value="url"/>
-      <value value="https://www.hl7.no"/>
+      <value value="https://oddbeard.net"/>
     </telecom>
   </contact>
-  <description value="Implementasjonsguide for å TODO"/>
+  <description value="Implementasjonsguide for å test ig publisher på HL7 Hackathon 2025"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -28,7 +28,7 @@
       <display value="Norway"/>
     </coding>
   </jurisdiction>
-  <packageId value="hl7.fhir.no.mal"/>
+  <packageId value="test.ig.oddbear"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
@@ -37,7 +37,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.2.0"/>
+    <version value="6.5.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -130,7 +130,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://hl7.no/fhir/ig/mal/history.html"/>
+        <valueString value="http://oddbeard.net/fhir/ig/mal/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -254,7 +254,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools.r4#0.4.1"/>
+      <valueCode value="hl7.fhir.uv.tools.r4#0.8.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -333,7 +333,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://hl7.no/fhir/ig/mal/history.html"/>
+        <valueString value="http://oddbeard.net/fhir/ig/mal/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -472,10 +472,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/mal-patient"/>
+        <reference value="StructureDefinition/test-mal-patient"/>
       </reference>
       <name value="Pasient"/>
-      <description value="Informasjon om pasienten, basert på no-basis."/>
+      <description value="Test Informasjon om pasienten, basert på no-basis."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -486,8 +486,8 @@
         <reference value="Patient/Pasient-1"/>
       </reference>
       <name value="Pasient-1"/>
-      <description value="Eksempel på pasient med navn og fødselsnummer"/>
-      <exampleCanonical value="http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient"/>
+      <description value="Eksempel på norsk pasient med fødselsnummer, navn og kontaktinformasjon"/>
+      <exampleCanonical value="http://oddbeard.net/fhir/ig/mal/StructureDefinition/test-mal-patient"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

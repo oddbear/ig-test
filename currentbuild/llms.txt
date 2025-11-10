@@ -1,0 +1,21 @@
+# test.ig.oddbear#0.1.0: ig-test
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### Resource Profiles
+
+* [Blodprøve](StructureDefinition-mal-observation-blodprove.md)
+* [Pasient](StructureDefinition-test-mal-patient.md)
+
+### ImplementationGuides
+
+* [ig-test](index.md)
+
+### Examples
+
+* [Pasient-1 (Patient)](Patient-Pasient-1.md)

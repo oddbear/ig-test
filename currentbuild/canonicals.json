@@ -1,23 +1,23 @@
 [
   {
-    "id" : "hl7.fhir.no.mal",
+    "id" : "test.ig.oddbear",
     "type" : "ImplementationGuide",
-    "url" : "http://hl7.no/fhir/ig/mal/ImplementationGuide/hl7.fhir.no.mal",
+    "url" : "http://oddbeard.net/fhir/ig/mal/ImplementationGuide/test.ig.oddbear",
     "version" : "0.1.0",
-    "name" : "Mal"
+    "name" : "igtest"
   },
   {
     "id" : "mal-observation-blodprove",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-observation-blodprove",
+    "url" : "http://oddbeard.net/fhir/ig/mal/StructureDefinition/mal-observation-blodprove",
     "version" : "0.1.0",
     "name" : "MalObservationBlood"
   },
   {
-    "id" : "mal-patient",
+    "id" : "test-mal-patient",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/ig/mal/StructureDefinition/mal-patient",
+    "url" : "http://oddbeard.net/fhir/ig/mal/StructureDefinition/test-mal-patient",
     "version" : "0.1.0",
-    "name" : "MalPatient"
+    "name" : "TestMalPatient"
   }
 ]
