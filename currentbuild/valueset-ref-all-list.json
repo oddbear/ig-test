@@ -261,8 +261,8 @@
       "uses" : {
       },
       "StructureDefinition-test-mal-patient.html" : "Pasient",
-      "StructureDefinition-test.encounter.oddbear.html" : "Encounter test",
-      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
+      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve",
+      "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

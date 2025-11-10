@@ -17,10 +17,6 @@
 
 * [ig-test](index.md)
 
-### SearchParameters
-
-* [PatientNorwegianSSN](SearchParameter-SearchParameter-Patient-NorwegianSSN.md)
-
 ### Examples
 
 * [Pasient-1 (Patient)](Patient-Pasient-1.md)

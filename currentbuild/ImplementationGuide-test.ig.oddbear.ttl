@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "igtest"] ; # 
   fhir:title [ fhir:v "ig-test"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-10T14:08:28+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-10T14:13:05+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "oddbear"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "oddbear" ] ;
@@ -1384,27 +1384,6 @@
          a fhir:Canonical ;
          fhir:v "http://oddbeard.net/fhir/ig/mal/StructureDefinition/test-mal-patient"^^xsd:anyURI ;
          fhir:l <http://oddbeard.net/fhir/ig/mal/StructureDefinition/test-mal-patient>
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
-           fhir:v "SearchParameter"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <http://oddbeard.net/fhir/ig/mal/SearchParameter/SearchParameter-Patient-NorwegianSSN> ;
-         fhir:reference [ fhir:v "SearchParameter/SearchParameter-Patient-NorwegianSSN" ]
-       ] ;
-       fhir:name [ fhir:v "Search parameter for Norwegian Social Security Number" ] ;
-       fhir:description [ fhir:v "Search for Patients using the Norwegian Social Security Number (fødselsnummer) as identifier." ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
        ]
      ] ) ;
      fhir:page [

@@ -1,13 +1,12 @@
 igtest : Validation Results
 =========================================
 
-err = 4, warn = 14, info = 1
+err = 0, warn = 14, info = 1
 IG Publisher Version: 2.0.26
-Generated Mon Nov 10 14:09:37 UTC 2025. FHIR version 4.0.1 for test.ig.oddbear#0.1.0 (canonical = http://oddbeard.net/fhir/ig/mal)
+Generated Mon Nov 10 14:14:14 UTC 2025. FHIR version 4.0.1 for test.ig.oddbear#0.1.0 (canonical = http://oddbeard.net/fhir/ig/mal)
  Build Errors : 0 / 4 / 0
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/ImplementationGuide-test.ig.oddbear : 0 / 3 / 1
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/Patient-Pasient-1 : 0 / 0 / 1
- /__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN : 4 / 0 / 1
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 2
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/StructureDefinition-test-mal-patient : 0 / 5 / 1
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/StructureDefinition-test.encounter.oddbear : 0 / 1 / 1
@@ -22,11 +21,6 @@ WARNING: ImplementationGuide/test.ig.oddbear: ImplementationGuide.dependsOn[2].u
 WARNING: ImplementationGuide/test.ig.oddbear: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 WARNING: ImplementationGuide/test.ig.oddbear: ImplementationGuide.dependsOn[2]: The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource
 == fsh-generated/resources/Patient-Pasient-1.json ==
-== fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json ==
-ERROR: SearchParameter.where(url = 'http://example.org/fhir/SearchParameter/patient-norwegian-ssn'): Conformance resource /__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json - the canonical URL (http://oddbeard.net/fhir/ig/mal/SearchParameter/SearchParameter-Patient-NorwegianSSN) does not match the URL (http://example.org/fhir/SearchParameter/patient-norwegian-ssn). Use the special-url parameter if you really mean for it not to match
-ERROR: SearchParameter.where(url = 'http://example.org/fhir/SearchParameter/patient-norwegian-ssn'): Conformance resource /__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json - the canonical URL (http://oddbeard.net/fhir/ig/mal/SearchParameter/SearchParameter-Patient-NorwegianSSN) does not match the URL (http://example.org/fhir/SearchParameter/patient-norwegian-ssn). Use the special-url parameter if you really mean for it not to match
-ERROR: SearchParameter/SearchParameter-Patient-NorwegianSSN: SearchParameter.expression: Error in search expression 'Patient.identifier.where(system='urn:oid:2.16.578.1.12.4.1.4.1' and value.matches('^\d{11}$'))': Error @1, 94: Unknown FHIRPath character escape \d
-ERROR: /__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN: URL Mismatch http://oddbeard.net/fhir/ig/mal/SearchParameter/SearchParameter-Patient-NorwegianSSN vs http://example.org/fhir/SearchParameter/patient-norwegian-ssn
 == fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json ==
 INFORMATION: StructureDefinition/mal-observation-blodprove: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 WARNING: StructureDefinition.where(url = 'http://oddbeard.net/fhir/ig/mal/StructureDefinition/mal-observation-blodprove'): The Implementation Guide contains no examples for this profile

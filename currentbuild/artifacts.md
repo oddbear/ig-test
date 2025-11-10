@@ -7,14 +7,6 @@
 
 This page provides a list of the FHIR artifacts defined as part of this implementation guide.
 
-### Behavior: Search Parameters 
-
-These define the properties by which a RESTful server can be searched. They can also be used for sorting and including related resources.
-
-| | |
-| :--- | :--- |
-| [Search parameter for Norwegian Social Security Number](SearchParameter-SearchParameter-Patient-NorwegianSSN.md) | Search for Patients using the Norwegian Social Security Number (fødselsnummer) as identifier. |
-
 ### Structures: Resource Profiles 
 
 These define constraints on FHIR resources for systems conforming to this implementation guide.
