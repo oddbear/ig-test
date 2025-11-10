@@ -66,7 +66,7 @@ Other representations of profile: [CSV](StructureDefinition-test.encounter.oddbe
       ]
     }
   ],
-  "fhirVersion" : "4.0.1",
+  "fhirVersion" : "5.0.0",
   "mapping" : [
     {
       "identity" : "workflow",
@@ -74,19 +74,19 @@ Other representations of profile: [CSV](StructureDefinition-test.encounter.oddbe
       "name" : "Workflow Pattern"
     },
     {
-      "identity" : "rim",
-      "uri" : "http://hl7.org/v3",
-      "name" : "RIM Mapping"
-    },
-    {
       "identity" : "w5",
       "uri" : "http://hl7.org/fhir/fivews",
       "name" : "FiveWs Pattern Mapping"
     },
     {
+      "identity" : "rim",
+      "uri" : "http://hl7.org/v3",
+      "name" : "RIM Mapping"
+    },
+    {
       "identity" : "v2",
       "uri" : "http://hl7.org/v2",
-      "name" : "HL7 v2 Mapping"
+      "name" : "HL7 V2 Mapping"
     }
   ],
   "kind" : "resource",
@@ -121,15 +121,15 @@ Other representations of profile: [CSV](StructureDefinition-test.encounter.oddbe
         ]
       },
       {
+        "id" : "Encounter.serviceProvider",
+        "path" : "Encounter.serviceProvider",
+        "min" : 1
+      },
+      {
         "id" : "Encounter.location",
         "path" : "Encounter.location",
         "min" : 1,
         "max" : "1"
-      },
-      {
-        "id" : "Encounter.serviceProvider",
-        "path" : "Encounter.serviceProvider",
-        "min" : 1
       }
     ]
   }

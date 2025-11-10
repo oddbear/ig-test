@@ -67,12 +67,22 @@ Other representations of profile: [CSV](StructureDefinition-test-mal-patient.csv
       ]
     }
   ],
-  "fhirVersion" : "4.0.1",
+  "fhirVersion" : "5.0.0",
   "mapping" : [
+    {
+      "identity" : "w5",
+      "uri" : "http://hl7.org/fhir/fivews",
+      "name" : "FiveWs Pattern Mapping"
+    },
     {
       "identity" : "rim",
       "uri" : "http://hl7.org/v3",
       "name" : "RIM Mapping"
+    },
+    {
+      "identity" : "interface",
+      "uri" : "http://hl7.org/fhir/interface",
+      "name" : "Interface Pattern"
     },
     {
       "identity" : "cda",
@@ -80,14 +90,9 @@ Other representations of profile: [CSV](StructureDefinition-test-mal-patient.csv
       "name" : "CDA (R2)"
     },
     {
-      "identity" : "w5",
-      "uri" : "http://hl7.org/fhir/fivews",
-      "name" : "FiveWs Pattern Mapping"
-    },
-    {
       "identity" : "v2",
       "uri" : "http://hl7.org/v2",
-      "name" : "HL7 v2 Mapping"
+      "name" : "HL7 V2 Mapping"
     },
     {
       "identity" : "loinc",

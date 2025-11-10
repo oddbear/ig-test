@@ -1,7 +1,7 @@
 {
   "version" : "0.1.0",
-  "fhirVersion" : ["4.0.1"],
-  "date" : "20251110131336",
+  "fhirVersion" : ["5.0.0"],
+  "date" : "20251110132425",
   "name" : "test.ig.oddbear",
   "jurisdiction" : "urn:iso:std:iso:3166#NO"
 }

@@ -1,15 +1,15 @@
 Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-test.ig.oddbear.json	2532	-	0	0	0	0	0	0	14	85	0	0	0	0	0	0	0	1	0	0	67	75	0	0	0	2	0	0
-fsh-generated/resources/Patient-Pasient-1.json	1161	16	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	11	19	0	0	1	0	0	0
-fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2260	14	0	60	1	0	1	0	0	103	0	0	1	0	0	0	0	2	0	0	183	1270	0	0	0	10	1	1
-fsh-generated/resources/StructureDefinition-test-mal-patient.json	832	16	0	91	0	0	0	0	0	60	0	0	0	0	0	0	0	1	0	0	237	843	0	0	0	12	0	1
-fsh-generated/resources/StructureDefinition-test.encounter.oddbear.json	1337	13	0	57	0	0	0	0	0	73	0	0	0	0	0	0	0	1	0	0	193	637	0	0	0	12	0	1
+/fsh-generated/resources/ImplementationGuide-test.ig.oddbear.json	2827	-	0	0	0	0	0	0	8	77	0	0	0	0	0	0	0	1	0	0	33	44	0	0	0	1	0	0
+fsh-generated/resources/Patient-Pasient-1.json	1161	19	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	9	7	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-mal-observation-blodprove.json	2260	17	0	46	0	0	0	0	0	86	0	0	0	0	0	0	0	2	0	0	139	1252	0	1	0	10	1	1
+fsh-generated/resources/StructureDefinition-test-mal-patient.json	832	15	0	73	0	0	0	0	0	40	0	0	1	0	0	0	0	1	0	0	142	1333	0	0	0	11	0	2
+fsh-generated/resources/StructureDefinition-test.encounter.oddbear.json	1337	12	0	55	0	0	0	0	0	30	0	0	0	0	0	0	0	0	0	0	99	411	0	0	0	6	0	0
 /fsh-generated/includes/fsh-link-references.md	234	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /fsh-generated/includes/menu.xml	1089	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/pagecontent/index.md	1068	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /template/config/_config.yml	140	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 /input/images	0	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/input/images/test.puml	389	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+/input/images/test.puml	389	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0
 /input/images/test.svg	8659	-	-	-	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
-/temp/pages/_includes/artifacts.xml	2875	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	1	0	0	0	0	0	0
+/temp/pages/_includes/artifacts.xml	2875	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	0	0	0	0	0	0	0
