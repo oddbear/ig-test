@@ -1,5 +1,12 @@
 [
   {
+    "id" : "SearchParameter-Patient-NorwegianSSN",
+    "type" : "SearchParameter",
+    "url" : "http://example.org/fhir/SearchParameter/patient-norwegian-ssn",
+    "version" : "0.1.0",
+    "name" : "PatientNorwegianSSN"
+  },
+  {
     "id" : "test.ig.oddbear",
     "type" : "ImplementationGuide",
     "url" : "http://oddbeard.net/fhir/ig/mal/ImplementationGuide/test.ig.oddbear",

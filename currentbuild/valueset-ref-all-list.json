@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "AdministrativeGender",
       "title" : "AdministrativeGender",
@@ -15,54 +15,27 @@
       "StructureDefinition-test-mal-patient.html" : "Pasient"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/all-languages",
-      "version" : "5.0.0",
-      "status" : "active",
-      "name" : "AllLanguages",
-      "title" : "All Languages",
-      "description" : "This value set includes all possible codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
-      "systems" : ["urn:ietf:bcp:47"],
-      "oids" : ["2.16.840.1.113883.4.642.3.21"],
-      "sources" : ["2.16.840.1.113883.4.642.3.21"],
-      "uses" : {
-      },
-      "StructureDefinition-test.encounter.oddbear.html" : "Encounter test",
-      "StructureDefinition-test-mal-patient.html" : "Pasient",
-      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/body-site",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "SNOMEDCTBodyStructures",
       "title" : "SNOMED CT Body Structures",
       "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
       "systems" : ["http://snomed.info/sct"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.653",
-        "2.16.840.1.113883.4.642.2.78",
-        "2.16.840.1.113883.4.642.3.141"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.653",
-        "2.16.840.1.113883.4.642.2.78",
-        "2.16.840.1.113883.4.642.3.141"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.141"],
+      "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/common-tags",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "CommonTags",
       "title" : "Common Tags",
       "description" : "Common Tag Codes defined by FHIR project",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-        "http://terminology.hl7.org/CodeSystem/common-tags"
-      ],
+      "systems" : ["http://terminology.hl7.org/CodeSystem/common-tags"],
       "oids" : ["2.16.840.1.113883.4.642.3.79"],
       "sources" : ["2.16.840.1.113883.4.642.3.79"],
       "uses" : {
@@ -70,47 +43,11 @@
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/condition-code",
-      "version" : "5.0.0",
-      "status" : "draft",
-      "name" : "ConditionProblemDiagnosisCodes",
-      "title" : "Condition/Problem/Diagnosis Codes",
-      "description" : "Example value set for Condition/Problem/Diagnosis codes.",
-      "systems" : ["http://snomed.info/sct"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.161",
-        "2.16.840.1.113883.4.642.2.72",
-        "2.16.840.1.113883.4.642.3.152"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.161",
-        "2.16.840.1.113883.4.642.2.72",
-        "2.16.840.1.113883.4.642.3.152"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/country",
-      "version" : "5.0.0",
-      "status" : "draft",
-      "name" : "CountryValueSet",
-      "title" : "Country ValueSet",
-      "description" : "This value set defines a base set of codes for countries.   \r\n   \r\n   Note: The codes for countries are taken from    [ISO 3166](https://www.iso.org/iso-3166-country-codes.html).",
-      "systems" : ["urn:iso:std:iso:3166"],
-      "oids" : ["2.16.840.1.113883.4.642.3.3297"],
-      "sources" : ["2.16.840.1.113883.4.642.3.3297"],
-      "uses" : {
-      },
-      "StructureDefinition-test-mal-patient.html" : "Pasient"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "DataAbsentReason",
-      "title" : "Data Absent Reason",
+      "title" : "DataAbsentReason",
       "description" : "Used to specify why the normally expected content of the data element is missing.",
       "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
       "oids" : ["2.16.840.1.113883.4.642.3.5"],
@@ -120,283 +57,175 @@
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
-      "version" : "5.0.0",
+      "url" : "http://hl7.org/fhir/ValueSet/diagnosis-role",
+      "version" : "4.0.1",
       "status" : "draft",
-      "name" : "AdmitSource",
-      "title" : "Admit Source",
-      "description" : "This value set defines a set of codes that can be used to indicate from where the patient came in.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/admit-source"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.257",
-        "2.16.840.1.113883.4.642.2.144",
-        "2.16.840.1.113883.4.642.3.252"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.257",
-        "2.16.840.1.113883.4.642.2.144",
-        "2.16.840.1.113883.4.642.3.252"
-      ],
+      "name" : "DiagnosisRole",
+      "title" : "DiagnosisRole",
+      "description" : "This value set defines a set of codes that can be used to express the role of a diagnosis on the Encounter or EpisodeOfCare record.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/diagnosis-role"],
+      "oids" : ["2.16.840.1.113883.4.642.3.49"],
+      "sources" : ["2.16.840.1.113883.4.642.3.49"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/encounter-diagnosis-use",
-      "version" : "5.0.0",
+      "url" : "http://hl7.org/fhir/ValueSet/encounter-admit-source",
+      "version" : "4.0.1",
       "status" : "draft",
-      "name" : "EncounterDiagnosisUse",
-      "title" : "Encounter Diagnosis Use",
-      "description" : "What a specific Encounter/EpisodeOfCare `diagnosis.condition` is to be used for.",
-      "systems" : ["http://hl7.org/fhir/encounter-diagnosis-use"],
-      "oids" : ["2.16.840.1.113883.4.642.4.3321"],
-      "sources" : ["2.16.840.1.113883.4.642.4.3321"],
+      "name" : "AdmitSource",
+      "title" : "Admit source",
+      "description" : "This value set defines a set of codes that can be used to indicate from where the patient came in.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/admit-source"],
+      "oids" : ["2.16.840.1.113883.4.642.3.257"],
+      "sources" : ["2.16.840.1.113883.4.642.3.257"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
-      "name" : "EncounterDiet",
+      "name" : "Diet",
       "title" : "Diet",
       "description" : "This value set defines a set of codes that can be used to indicate dietary preferences or restrictions a patient may have.",
       "systems" : ["http://terminology.hl7.org/CodeSystem/diet"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.255",
-        "2.16.840.1.113883.4.642.2.142",
-        "2.16.840.1.113883.4.642.3.250"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.255",
-        "2.16.840.1.113883.4.642.2.142",
-        "2.16.840.1.113883.4.642.3.250"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.255"],
+      "sources" : ["2.16.840.1.113883.4.642.3.255"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-discharge-disposition",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "DischargeDisposition",
-      "title" : "Discharge Disposition",
+      "title" : "Discharge disposition",
       "description" : "This value set defines a set of codes that can be used to where the patient left the hospital.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/discharge-disposition"
       ],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.254",
-        "2.16.840.1.113883.4.642.2.145",
-        "2.16.840.1.113883.4.642.3.259"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.254",
-        "2.16.840.1.113883.4.642.2.145",
-        "2.16.840.1.113883.4.642.3.259"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.259"],
+      "sources" : ["2.16.840.1.113883.4.642.3.259"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-location-status",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "EncounterLocationStatus",
-      "title" : "Encounter Location Status",
+      "title" : "EncounterLocationStatus",
       "description" : "The status of the location.",
       "systems" : ["http://hl7.org/fhir/encounter-location-status"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.257",
-        "2.16.840.1.113883.4.642.2.147",
-        "2.16.840.1.113883.4.642.3.262"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.257",
-        "2.16.840.1.113883.4.642.2.147",
-        "2.16.840.1.113883.4.642.3.262"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.262"],
+      "sources" : ["2.16.840.1.113883.4.642.3.262"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-participant-type",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "ParticipantType",
-      "title" : "Participant Type",
+      "title" : "Participant type",
       "description" : "This value set defines a set of codes that can be used to indicate how an individual participates in an encounter.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/participant-type",
         "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
       ],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.245",
-        "2.16.840.1.113883.4.642.2.139",
-        "2.16.840.1.113883.4.642.3.250"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.245",
-        "2.16.840.1.113883.4.642.2.139",
-        "2.16.840.1.113883.4.642.3.250"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.250"],
+      "sources" : ["2.16.840.1.113883.4.642.3.250"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "EncounterReasonCodes",
       "title" : "Encounter Reason Codes",
       "description" : "This examples value set defines the set of codes that can be used to indicate reasons for an encounter.",
       "systems" : ["http://snomed.info/sct"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.256",
-        "2.16.840.1.113883.4.642.2.146",
-        "2.16.840.1.113883.4.642.3.261"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.256",
-        "2.16.840.1.113883.4.642.2.146",
-        "2.16.840.1.113883.4.642.3.261"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/encounter-reason-use",
-      "version" : "5.0.0",
-      "status" : "draft",
-      "name" : "EncounterReasonUse",
-      "title" : "Encounter Reason Use",
-      "description" : "What a specific Encounter/EpisodeOfCare `reason.value` is to be used for.",
-      "systems" : ["http://hl7.org/fhir/encounter-reason-use"],
-      "oids" : ["2.16.840.1.113883.4.642.4.3320"],
-      "sources" : ["2.16.840.1.113883.4.642.4.3320"],
+      "oids" : ["2.16.840.1.113883.4.642.3.261"],
+      "sources" : ["2.16.840.1.113883.4.642.3.261"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-special-arrangements",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "SpecialArrangements",
-      "title" : "Special Arrangements",
+      "title" : "Special arrangements",
       "description" : "This value set defines a set of codes that can be used to indicate the kinds of special arrangements in place for a patients visit.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/encounter-special-arrangements"
       ],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.248",
-        "2.16.840.1.113883.4.642.2.141",
-        "2.16.840.1.113883.4.642.3.253"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.248",
-        "2.16.840.1.113883.4.642.2.141",
-        "2.16.840.1.113883.4.642.3.253"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.253"],
+      "sources" : ["2.16.840.1.113883.4.642.3.253"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-special-courtesy",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "SpecialCourtesy",
-      "title" : "Special Courtesy",
+      "title" : "Special courtesy",
       "description" : "This value set defines a set of codes that can be used to indicate special courtesies provided to the patient.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
         "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"
       ],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.247",
-        "2.16.840.1.113883.4.642.3.252",
-        "2.16.840.1.113883.4.642.2.140"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.247",
-        "2.16.840.1.113883.4.642.3.252",
-        "2.16.840.1.113883.4.642.2.140"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.252"],
+      "sources" : ["2.16.840.1.113883.4.642.3.252"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-status",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "EncounterStatus",
-      "title" : "Encounter Status",
+      "title" : "EncounterStatus",
       "description" : "Current state of the encounter.",
       "systems" : ["http://hl7.org/fhir/encounter-status"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.246",
-        "2.16.840.1.113883.4.642.3.241"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.246",
-        "2.16.840.1.113883.4.642.3.241"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/encounter-subject-status",
-      "version" : "5.0.0",
-      "status" : "draft",
-      "name" : "EncounterSubjectStatus",
-      "title" : "Encounter Subject Status",
-      "description" : "This example value set defines a set of codes that can be used to indicate the status of the subject within the encounter",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/encounter-subject-status"
-      ],
-      "oids" : ["2.16.840.1.113883.4.642.3.3159"],
-      "sources" : ["2.16.840.1.113883.4.642.3.3159"],
+      "oids" : ["2.16.840.1.113883.4.642.3.246"],
+      "sources" : ["2.16.840.1.113883.4.642.3.246"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-type",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "EncounterType",
-      "title" : "Encounter Type",
+      "title" : "Encounter type",
       "description" : "This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.",
       "systems" : ["http://terminology.hl7.org/CodeSystem/encounter-type"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.243",
-        "2.16.840.1.113883.4.642.3.248",
-        "2.16.840.1.113883.4.642.2.137"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.243",
-        "2.16.840.1.113883.4.642.3.248",
-        "2.16.840.1.113883.4.642.2.137"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.248"],
+      "sources" : ["2.16.840.1.113883.4.642.3.248"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
-      "name" : "IdentifierTypeCodes",
-      "title" : "Identifier Type Codes",
+      "name" : "Identifier Type Codes",
+      "title" : "IdentifierType",
       "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
       "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
       "oids" : ["2.16.840.1.113883.4.642.3.45"],
@@ -407,7 +236,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "IdentifierUse",
       "title" : "IdentifierUse",
@@ -421,54 +250,40 @@
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "CommonLanguages",
       "title" : "Common Languages",
-      "description" : "This value set includes common codes from BCP-47 (see http://tools.ietf.org/html/bcp47)",
+      "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
       "systems" : ["urn:ietf:bcp:47"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.891",
-        "2.16.840.1.113883.4.642.3.20"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.891",
-        "2.16.840.1.113883.4.642.3.20"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.20"],
+      "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-test.encounter.oddbear.html" : "Encounter test",
       "StructureDefinition-test-mal-patient.html" : "Pasient",
+      "StructureDefinition-test.encounter.oddbear.html" : "Encounter test",
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "LinkType",
-      "title" : "Link Type",
-      "description" : "The type of link between this Patient resource and another Patient/RelatedPerson resource.",
+      "title" : "LinkType",
+      "description" : "The type of link between this patient resource and another patient resource.",
       "systems" : ["http://hl7.org/fhir/link-type"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.2.234",
-        "2.16.840.1.113883.4.642.3.423",
-        "2.16.840.1.113883.4.642.3.412"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.2.234",
-        "2.16.840.1.113883.4.642.3.423",
-        "2.16.840.1.113883.4.642.3.412"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.423"],
+      "sources" : ["2.16.840.1.113883.4.642.3.423"],
       "uses" : {
       },
       "StructureDefinition-test-mal-patient.html" : "Pasient"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/location-form",
-      "version" : "5.0.0",
+      "url" : "http://hl7.org/fhir/ValueSet/location-physical-type",
+      "version" : "4.0.1",
       "status" : "draft",
-      "name" : "LocationForm",
-      "title" : "Location Form",
+      "name" : "LocationType",
+      "title" : "Location type",
       "description" : "This example value set defines a set of codes that can be used to indicate the physical form of the Location.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/location-physical-type"
@@ -481,10 +296,10 @@
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/marital-status",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
-      "name" : "MaritalStatusCodes",
-      "title" : "Marital Status Codes",
+      "name" : "Marital Status Codes",
+      "title" : "MaritalStatus",
       "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
@@ -498,7 +313,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/name-use",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "NameUse",
       "title" : "NameUse",
@@ -512,51 +327,35 @@
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-category",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "ObservationCategoryCodes",
       "title" : "Observation Category Codes",
       "description" : "Observation Category codes.",
       "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.403",
-        "2.16.840.1.113883.4.642.2.222",
-        "2.16.840.1.113883.4.642.3.392"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.403",
-        "2.16.840.1.113883.4.642.2.222",
-        "2.16.840.1.113883.4.642.3.392"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "LOINCCodes",
       "title" : "LOINC Codes",
       "description" : "This value set includes all LOINC codes",
       "systems" : ["http://loinc.org"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.2.216",
-        "2.16.840.1.113883.4.642.3.396",
-        "2.16.840.1.113883.4.642.3.383"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.2.216",
-        "2.16.840.1.113883.4.642.3.396",
-        "2.16.840.1.113883.4.642.3.383"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "ObservationInterpretationCodes",
       "title" : "Observation Interpretation Codes",
@@ -564,95 +363,43 @@
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
       ],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.399",
-        "2.16.840.1.113883.4.642.3.386",
-        "2.16.840.1.113883.4.642.2.218"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.399",
-        "2.16.840.1.113883.4.642.3.386",
-        "2.16.840.1.113883.4.642.2.218"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.399"],
+      "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "ObservationMethods",
       "title" : "Observation Methods",
       "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
       "systems" : ["http://snomed.info/sct"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.2.215",
-        "2.16.840.1.113883.4.642.3.395",
-        "2.16.840.1.113883.4.642.3.382"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.2.215",
-        "2.16.840.1.113883.4.642.3.395",
-        "2.16.840.1.113883.4.642.3.382"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/observation-referencerange-normalvalue",
-      "version" : "5.0.0",
-      "status" : "draft",
-      "name" : "ObservationReferenceRangeNormalValueCodes",
-      "title" : "Observation Reference Range Normal Value Codes",
-      "description" : "Codes that describe the normal value in the reference range, such as “Negative” or “Absent”",
-      "systems" : ["http://hl7.org/fhir/observation-referencerange-normalvalue"],
-      "oids" : ["2.16.840.1.113883.4.642.3.3264"],
-      "sources" : ["2.16.840.1.113883.4.642.3.3264"],
+      "oids" : ["2.16.840.1.113883.4.642.3.395"],
+      "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "ObservationStatus",
-      "title" : "Observation Status",
+      "title" : "ObservationStatus",
       "description" : "Codes providing the status of an observation.",
       "systems" : ["http://hl7.org/fhir/observation-status"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.400",
-        "2.16.840.1.113883.4.642.3.387",
-        "2.16.840.1.113883.4.642.2.219"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.400",
-        "2.16.840.1.113883.4.642.3.387",
-        "2.16.840.1.113883.4.642.2.219"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/observation-triggeredbytype",
-      "version" : "5.0.0",
-      "status" : "active",
-      "name" : "TriggeredBytype",
-      "title" : "triggered Bytype",
-      "description" : "Codes providing the type of triggeredBy observation.",
-      "systems" : ["http://hl7.org/fhir/observation-triggeredbytype"],
-      "oids" : ["2.16.840.1.113883.4.642.3.3265"],
-      "sources" : ["2.16.840.1.113883.4.642.3.3265"],
+      "oids" : ["2.16.840.1.113883.4.642.3.400"],
+      "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "PatientContactRelationship",
       "title" : "Patient Contact Relationship ",
@@ -666,7 +413,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "ObservationReferenceRangeAppliesToCodes",
       "title" : "Observation Reference Range Applies To Codes",
@@ -675,21 +422,15 @@
         "http://terminology.hl7.org/CodeSystem/v3-Race",
         "http://snomed.info/sct"
       ],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.407",
-        "2.16.840.1.113883.4.642.3.396"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.407",
-        "2.16.840.1.113883.4.642.3.396"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.407"],
+      "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "ObservationReferenceRangeMeaningCodes",
       "title" : "Observation Reference Range Meaning Codes",
@@ -697,26 +438,18 @@
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
       ],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.397",
-        "2.16.840.1.113883.4.642.2.217",
-        "2.16.840.1.113883.4.642.3.384"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.397",
-        "2.16.840.1.113883.4.642.2.217",
-        "2.16.840.1.113883.4.642.3.384"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.397"],
+      "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
       "StructureDefinition-mal-observation-blodprove.html" : "Blodprøve"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/security-labels",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
-      "name" : "AllSecurityLabels",
-      "title" : "All Security Labels",
+      "name" : "All Security Labels",
+      "title" : "SecurityLabels",
       "description" : "A single value set for all security labels defined by FHIR.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/v3-ActReason",
@@ -725,48 +458,22 @@
         "http://terminology.hl7.org/CodeSystem/v3-ActCode",
         "http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
       ],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.46",
-        "2.16.840.1.113883.4.642.2.31",
-        "2.16.840.1.113883.4.642.3.47"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.46",
-        "2.16.840.1.113883.4.642.2.31",
-        "2.16.840.1.113883.4.642.3.47"
-      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.47"],
+      "sources" : ["2.16.840.1.113883.4.642.3.47"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-type",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "ServiceType",
-      "title" : "Service Type",
+      "title" : "Service type",
       "description" : "This value set defines an example set of codes of service-types.",
       "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
-      "oids" : [
-        "2.16.840.1.113883.4.642.3.512",
-        "2.16.840.1.113883.4.642.3.518"
-      ],
-      "sources" : [
-        "2.16.840.1.113883.4.642.3.512",
-        "2.16.840.1.113883.4.642.3.518"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
-    },
-    {
-      "url" : "http://terminology.hl7.org/ValueSet/encounter-class",
-      "version" : "2.0.1",
-      "status" : "active",
-      "name" : "EncounterClass",
-      "title" : "Encounter class",
-      "description" : "This value set defines a set of codes that can be used to indicate the class of encounter: a specific code indicating class of service provided.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "oids" : ["2.16.840.1.113883.4.642.3.518"],
+      "sources" : ["2.16.840.1.113883.4.642.3.518"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
@@ -781,6 +488,20 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0092"],
       "oids" : ["2.16.840.1.113883.21.40"],
       "sources" : ["2.16.840.1.113883.21.40"],
+      "uses" : {
+      },
+      "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
+    },
+    {
+      "url" : "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
+      "version" : "3.0.0",
+      "status" : "active",
+      "name" : "ActEncounterCode",
+      "title" : "ActEncounterCode",
+      "description" : "Domain provides codes that qualify the ActEncounterClass (ENC)",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "oids" : ["2.16.840.1.113883.1.11.13955"],
+      "sources" : ["2.16.840.1.113883.1.11.13955"],
       "uses" : {
       },
       "StructureDefinition-test.encounter.oddbear.html" : "Encounter test"
