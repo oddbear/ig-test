@@ -7,8 +7,10 @@ Description: "Profil for encounter test"
 * ^date = "2025-11-10"
 * ^publisher = "oddbear"
 
-* subject only Reference(NoBasisPatient)
+* subject only Reference(Patient) // NoBasisPatient
 * serviceProvider 1..1
 * serviceProvider only Reference(Organization)
 * meta 1..1
 * meta.lastUpdated 1..1
+* location 1..1
+* location.location 1..1
