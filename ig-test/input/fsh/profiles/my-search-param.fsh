@@ -9,7 +9,7 @@ Usage: #definition
 * status = #active
 * description = "Search parameter for Norwegian Social Security Number (fødselsnummer) in Patient.identifier"
 * code = #norwegian-ssn
-* base = #Patient
+* base = #TestMalPatient
 * type = #token
 * expression = "Patient.identifier.where(system='urn:oid:2.16.578.1.12.4.1.4.1' and value.matches('^\\d{11}$'))"
 * xpathUsage = #normal
