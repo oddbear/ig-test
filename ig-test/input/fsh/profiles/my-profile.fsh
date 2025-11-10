@@ -13,4 +13,3 @@ Description: "Profil for encounter test"
 * meta 1..1
 * meta.lastUpdated 1..1
 * location 1..1
-* location.location 1..1
