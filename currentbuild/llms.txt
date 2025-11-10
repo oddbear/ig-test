@@ -11,6 +11,7 @@
 
 * [Blodprøve](StructureDefinition-mal-observation-blodprove.md)
 * [Pasient](StructureDefinition-test-mal-patient.md)
+* [Encounter test](StructureDefinition-test.encounter.oddbear.md)
 
 ### ImplementationGuides
 

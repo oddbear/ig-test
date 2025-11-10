@@ -14,6 +14,7 @@ These define constraints on FHIR resources for systems conforming to this implem
 | | |
 | :--- | :--- |
 | [Blodprøve](StructureDefinition-mal-observation-blodprove.md) | Profil for vanlige blodprøver |
+| [Encounter test](StructureDefinition-test.encounter.oddbear.md) | Profil for encounter test |
 | [Pasient](StructureDefinition-test-mal-patient.md) | Test Informasjon om pasienten, basert på no-basis. |
 
 ### Example: Example Instances 

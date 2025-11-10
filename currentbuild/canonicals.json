@@ -19,5 +19,12 @@
     "url" : "http://oddbeard.net/fhir/ig/mal/StructureDefinition/test-mal-patient",
     "version" : "0.1.0",
     "name" : "TestMalPatient"
+  },
+  {
+    "id" : "test.encounter.oddbear",
+    "type" : "StructureDefinition",
+    "url" : "http://oddbeard.net/fhir/ig/mal/StructureDefinition/test.encounter.oddbear",
+    "version" : "0.1.0",
+    "name" : "TestEncounter"
   }
 ]

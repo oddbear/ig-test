@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "igtest"] ; # 
   fhir:title [ fhir:v "ig-test"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-11-10T09:50:45+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-10T13:00:49+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "oddbear"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "oddbear" ] ;
@@ -1317,6 +1317,27 @@
        ] ;
        fhir:name [ fhir:v "Blodprøve" ] ;
        fhir:description [ fhir:v "Profil for vanlige blodprøver" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "StructureDefinition:resource"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <http://oddbeard.net/fhir/ig/mal/StructureDefinition/test.encounter.oddbear> ;
+         fhir:reference [ fhir:v "StructureDefinition/test.encounter.oddbear" ]
+       ] ;
+       fhir:name [ fhir:v "Encounter test" ] ;
+       fhir:description [ fhir:v "Profil for encounter test" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

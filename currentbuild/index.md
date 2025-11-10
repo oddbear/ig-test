@@ -59,7 +59,7 @@ Eksempel på en figur laget med PlantUML.
   "name" : "igtest",
   "title" : "ig-test",
   "status" : "draft",
-  "date" : "2025-11-10T09:50:45+00:00",
+  "date" : "2025-11-10T13:00:49+00:00",
   "publisher" : "oddbear",
   "contact" : [
     {
@@ -789,6 +789,20 @@ Eksempel på en figur laget med PlantUML.
         },
         "name" : "Blodprøve",
         "description" : "Profil for vanlige blodprøver",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:resource"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/test.encounter.oddbear"
+        },
+        "name" : "Encounter test",
+        "description" : "Profil for encounter test",
         "exampleBoolean" : false
       },
       {

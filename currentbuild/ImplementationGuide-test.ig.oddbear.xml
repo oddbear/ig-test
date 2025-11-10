@@ -11,7 +11,7 @@
   <name value="igtest"/>
   <title value="ig-test"/>
   <status value="draft"/>
-  <date value="2025-11-10T09:50:45+00:00"/>
+  <date value="2025-11-10T13:00:49+00:00"/>
   <publisher value="oddbear"/>
   <contact>
     <name value="oddbear"/>
@@ -465,6 +465,17 @@
       </reference>
       <name value="Blodprøve"/>
       <description value="Profil for vanlige blodprøver"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/test.encounter.oddbear"/>
+      </reference>
+      <name value="Encounter test"/>
+      <description value="Profil for encounter test"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

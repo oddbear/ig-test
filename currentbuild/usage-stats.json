@@ -16,6 +16,12 @@
         "url": "http://oddbeard.net/fhir/ig/mal/StructureDefinition/test-mal-patient",
         "title": "Pasient"
       }
+    ],
+    "Encounter": [
+      {
+        "url": "http://oddbeard.net/fhir/ig/mal/StructureDefinition/test.encounter.oddbear",
+        "title": "Encounter test"
+      }
     ]
   },
   "usage": {
