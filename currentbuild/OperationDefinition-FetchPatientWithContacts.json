@@ -1,0 +1,54 @@
+{
+  "resourceType" : "OperationDefinition",
+  "id" : "FetchPatientWithContacts",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: OperationDefinition FetchPatientWithContacts</b></p><a name=\"FetchPatientWithContacts\"> </a><a name=\"hcFetchPatientWithContacts\"> </a><p>URL: [base]/Patient/$fetch-patient-with-contacts</p><p>URL: [base]/Patient/[id]/$fetch-patient-with-contacts</p><h3>Parameters</h3><table class=\"grid\"><tr><td><b>Use</b></td><td><b>Name</b></td><td><b>Scope</b></td><td><b>Cardinality</b></td><td><b>Type</b></td><td><b>Binding</b></td><td><b>Documentation</b></td></tr><tr><td>IN</td><td>id</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td/><td><div><p>Logical ID of the Patient to retrieve.</p>\n</div></td></tr><tr><td>OUT</td><td>return</td><td/><td>1..1</td><td><a href=\"http://hl7.org/fhir/R4/bundle.html\">Bundle</a></td><td/><td><div><p>A Bundle containing the Patient and all referenced contact resources.</p>\n</div></td></tr></table><div><p>This operation returns a Bundle (type=searchset) containing:</p>\n<ul>\n<li>The Patient resource identified by the input <code>id</code></li>\n<li>All contact-related resources referenced by the Patient via <code>_include=Patient:link</code> or similar relationships.</li>\n</ul>\n<p>Equivalent REST example:\nGET [base]/Patient/{id}?_include=Patient:link</p>\n</div></div>"
+  },
+  "url" : "http://example.org/fhir/OperationDefinition/fetch-patient-with-contacts",
+  "version" : "0.1.0",
+  "name" : "FetchPatientWithContacts",
+  "title" : "Fetch Patient with Contacts Populated",
+  "status" : "active",
+  "kind" : "operation",
+  "experimental" : false,
+  "date" : "2025-11-10T14:31:32+00:00",
+  "publisher" : "oddbear",
+  "contact" : [{
+    "name" : "oddbear",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://oddbeard.net"
+    }]
+  }],
+  "description" : "An operation to fetch a Patient resource along with its contact-related resources (Practitioner, RelatedPerson, Organization, etc.) fully populated.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "code" : "fetch-patient-with-contacts",
+  "comment" : "This operation returns a Bundle (type=searchset) containing:\n- The Patient resource identified by the input `id`\n- All contact-related resources referenced by the Patient via `_include=Patient:link` or similar relationships.\n\nEquivalent REST example:\nGET [base]/Patient/{id}?_include=Patient:link",
+  "resource" : ["Patient"],
+  "system" : false,
+  "type" : true,
+  "instance" : true,
+  "parameter" : [{
+    "name" : "id",
+    "use" : "in",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "Logical ID of the Patient to retrieve.",
+    "type" : "string"
+  },
+  {
+    "name" : "return",
+    "use" : "out",
+    "min" : 1,
+    "max" : "1",
+    "documentation" : "A Bundle containing the Patient and all referenced contact resources.",
+    "type" : "Bundle"
+  }]
+}

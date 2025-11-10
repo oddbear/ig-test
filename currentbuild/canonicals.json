@@ -1,5 +1,12 @@
 [
   {
+    "id" : "FetchPatientWithContacts",
+    "type" : "OperationDefinition",
+    "url" : "http://example.org/fhir/OperationDefinition/fetch-patient-with-contacts",
+    "version" : "0.1.0",
+    "name" : "FetchPatientWithContacts"
+  },
+  {
     "id" : "SearchParameter-Patient-NorwegianSSN",
     "type" : "SearchParameter",
     "url" : "http://example.org/fhir/SearchParameter/patient-norwegian-ssn",

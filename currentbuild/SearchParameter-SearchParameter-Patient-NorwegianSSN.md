@@ -41,7 +41,7 @@ Search parameter for Norwegian Social Security Number (fødselsnummer) in Patien
   "version" : "0.1.0",
   "name" : "PatientNorwegianSSN",
   "status" : "active",
-  "date" : "2025-11-10T14:19:29+00:00",
+  "date" : "2025-11-10T14:31:32+00:00",
   "publisher" : "oddbear",
   "contact" : [
     {

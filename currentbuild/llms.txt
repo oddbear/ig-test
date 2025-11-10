@@ -17,6 +17,10 @@
 
 * [ig-test](index.md)
 
+### OperationDefinitions
+
+* [Fetch Patient with Contacts Populated](OperationDefinition-FetchPatientWithContacts.md)
+
 ### SearchParameters
 
 * [PatientNorwegianSSN](SearchParameter-SearchParameter-Patient-NorwegianSSN.md)

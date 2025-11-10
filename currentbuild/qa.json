@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "test.ig.oddbear",
   "ig-ver" : "0.1.0",
-  "date" : "Mon, 10 Nov, 2025 14:19:29 +0000",
-  "dateISO8601" : "2025-11-10T14:19:29+00:00",
-  "errs" : 4,
+  "date" : "Mon, 10 Nov, 2025 14:31:32 +0000",
+  "dateISO8601" : "2025-11-10T14:31:32+00:00",
+  "errs" : 6,
   "warnings" : 14,
   "hints" : 1,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 931083840
+  "maxMemory" : 929386024
 }

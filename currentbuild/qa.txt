@@ -1,11 +1,12 @@
 igtest : Validation Results
 =========================================
 
-err = 4, warn = 14, info = 1
+err = 6, warn = 14, info = 1
 IG Publisher Version: 2.0.26
-Generated Mon Nov 10 14:20:46 UTC 2025. FHIR version 4.0.1 for test.ig.oddbear#0.1.0 (canonical = http://oddbeard.net/fhir/ig/mal)
+Generated Mon Nov 10 14:32:43 UTC 2025. FHIR version 4.0.1 for test.ig.oddbear#0.1.0 (canonical = http://oddbeard.net/fhir/ig/mal)
  Build Errors : 0 / 4 / 0
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/ImplementationGuide-test.ig.oddbear : 0 / 3 / 1
+ /__w/ig-test/ig-test/ig-test/fsh-generated/resources/OperationDefinition-FetchPatientWithContacts : 2 / 0 / 1
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/Patient-Pasient-1 : 0 / 0 / 1
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN : 4 / 0 / 1
  /__w/ig-test/ig-test/ig-test/fsh-generated/resources/StructureDefinition-mal-observation-blodprove : 0 / 1 / 2
@@ -21,6 +22,9 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 WARNING: ImplementationGuide/test.ig.oddbear: ImplementationGuide.dependsOn[2].uri: A definition could not be found for Canonical URL 'http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis'
 WARNING: ImplementationGuide/test.ig.oddbear: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 WARNING: ImplementationGuide/test.ig.oddbear: ImplementationGuide.dependsOn[2]: The canonical URL http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis doesn't point to an actual ImplementationGuide resource
+== fsh-generated/resources/OperationDefinition-FetchPatientWithContacts.json ==
+ERROR: OperationDefinition.where(url = 'http://example.org/fhir/OperationDefinition/fetch-patient-with-contacts'): Conformance resource /__w/ig-test/ig-test/ig-test/fsh-generated/resources/OperationDefinition-FetchPatientWithContacts.json - the canonical URL (http://oddbeard.net/fhir/ig/mal/OperationDefinition/FetchPatientWithContacts) does not match the URL (http://example.org/fhir/OperationDefinition/fetch-patient-with-contacts). Use the special-url parameter if you really mean for it not to match
+ERROR: /__w/ig-test/ig-test/ig-test/fsh-generated/resources/OperationDefinition-FetchPatientWithContacts: URL Mismatch http://oddbeard.net/fhir/ig/mal/OperationDefinition/FetchPatientWithContacts vs http://example.org/fhir/OperationDefinition/fetch-patient-with-contacts
 == fsh-generated/resources/Patient-Pasient-1.json ==
 == fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json ==
 ERROR: SearchParameter.where(url = 'http://example.org/fhir/SearchParameter/patient-norwegian-ssn'): Conformance resource /__w/ig-test/ig-test/ig-test/fsh-generated/resources/SearchParameter-SearchParameter-Patient-NorwegianSSN.json - the canonical URL (http://oddbeard.net/fhir/ig/mal/SearchParameter/SearchParameter-Patient-NorwegianSSN) does not match the URL (http://example.org/fhir/SearchParameter/patient-norwegian-ssn). Use the special-url parameter if you really mean for it not to match

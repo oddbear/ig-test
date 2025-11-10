@@ -7,6 +7,14 @@
 
 This page provides a list of the FHIR artifacts defined as part of this implementation guide.
 
+### Behavior: Operation Definitions 
+
+These are custom operations that can be supported by and/or invoked by systems conforming to this implementation guide.
+
+| | |
+| :--- | :--- |
+| [Fetch Patient with Contacts Populated](OperationDefinition-FetchPatientWithContacts.md) | An operation to fetch a Patient resource along with its contact-related resources (Practitioner, RelatedPerson, Organization, etc.) fully populated. |
+
 ### Behavior: Search Parameters 
 
 These define the properties by which a RESTful server can be searched. They can also be used for sorting and including related resources.

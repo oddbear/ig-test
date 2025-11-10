@@ -20,7 +20,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "PatientNorwegianSSN"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-11-10T14:19:29+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-10T14:31:32+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "oddbear"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "oddbear" ] ;

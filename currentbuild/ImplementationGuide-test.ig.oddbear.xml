@@ -11,7 +11,7 @@
   <name value="igtest"/>
   <title value="ig-test"/>
   <status value="draft"/>
-  <date value="2025-11-10T14:19:29+00:00"/>
+  <date value="2025-11-10T14:31:32+00:00"/>
   <publisher value="oddbear"/>
   <contact>
     <name value="oddbear"/>
@@ -476,6 +476,17 @@
       </reference>
       <name value="Encounter test"/>
       <description value="Profil for encounter test"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="OperationDefinition"/>
+      </extension>
+      <reference>
+        <reference value="OperationDefinition/FetchPatientWithContacts"/>
+      </reference>
+      <name value="Fetch Patient with Contacts Populated"/>
+      <description value="An operation to fetch a Patient resource along with its contact-related resources (Practitioner, RelatedPerson, Organization, etc.) fully populated."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

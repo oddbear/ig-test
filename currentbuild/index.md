@@ -59,7 +59,7 @@ Eksempel på en figur laget med PlantUML.
   "name" : "igtest",
   "title" : "ig-test",
   "status" : "draft",
-  "date" : "2025-11-10T14:19:29+00:00",
+  "date" : "2025-11-10T14:31:32+00:00",
   "publisher" : "oddbear",
   "contact" : [
     {
@@ -803,6 +803,20 @@ Eksempel på en figur laget med PlantUML.
         },
         "name" : "Encounter test",
         "description" : "Profil for encounter test",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "OperationDefinition"
+          }
+        ],
+        "reference" : {
+          "reference" : "OperationDefinition/FetchPatientWithContacts"
+        },
+        "name" : "Fetch Patient with Contacts Populated",
+        "description" : "An operation to fetch a Patient resource along with its contact-related resources (Practitioner, RelatedPerson, Organization, etc.) fully populated.",
         "exampleBoolean" : false
       },
       {
